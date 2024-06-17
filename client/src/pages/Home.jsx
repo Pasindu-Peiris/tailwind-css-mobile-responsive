@@ -61,9 +61,9 @@ const Home = () => {
             </form>
 
 
-            <div>
+            <div className=' mt-12'>
                 <h1 className='text-2xl'>User Data</h1>
-                <table  className=' border-4'>
+                <table className=' border-4'>
                     <thead className=' border-4'>
                         <tr className=' border-4'>
                             <th className=' p-5'>Name</th>
@@ -79,6 +79,13 @@ const Home = () => {
                                     <tr key={index} className=' border-4'>
                                         <td className=' p-5'>{data[key].uname}</td>
                                         <td className=' p-5'>{data[key].uemail}</td>
+                                        <td className=' p-5'>
+                                            <button className=' bg-green-600 p-3'>Update</button>
+                                        </td>
+                                        <td className=' p-5'>
+                                                
+                                        <button className=' bg-red-600 p-3'>Delete</button>
+                                        </td>
                                     </tr>
                                 )
                             })
