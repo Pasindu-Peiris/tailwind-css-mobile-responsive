@@ -17,22 +17,22 @@ const Homesection1 = () => {
     return (
         <section className=' w-[100%] h-[85vh]' style={style}>
 
-            <nav className=' xl:flex xl:items-center xl:justify-between xl:px-20 xl:w-[100%] xl:h-[15vh] ' >
+            <nav className=' flex items-center justify-between px-20 w-[100%] h-[15vh] ' >
 
                 <div className="logo">
-                    <a href='!'> <img src={logo} alt="" className=' xl:h-[72px]' /></a>
+                    <a href='!'> <img src={logo} alt="" className=' h-[72px]' /></a>
                 </div>
 
                 <div className="menu">
-                    <a href='#!' className=' xl:px-6 xl:py-3 xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services</a>
-                    <a href='#!' className=' xl:px-6 xl:py-3 bg-[#00646b] text-white rounded-sm'>Contact</a>
+                    <a href='#!' className='  px-6 py-3 md:hidden xl:inline xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services</a>
+                    <a href='#!' className=' px-6 py-3 bg-[#00646b] text-white rounded-sm'>Contact</a>
                 </div>
 
             </nav>
 
-            <div className="content xl:w-[100%] xl:h-[70vh] xl:grid xl:justify-start xl:items-center xl:px-12">
+            <div className="content w-[100%] h-[70vh] grid xl:justify-start md:justify-center items-center xl:px-12 md:px-auto">
 
-                <div className="content-block xl:w-[500px] xl:h-[auto] xl:p-8  grid flex-col justify-center">
+                <div className="content-block xl:w-[500px] xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
 
                     <div className="text-h1 mb-3">
                         <h1 className=' text-5xl font-bold leading-25'>Taking care of dogs as if they were our own.</h1>
@@ -43,8 +43,8 @@ const Homesection1 = () => {
                     </div>
 
                     <div className="menu mt-4">
-                        <a href='#!' className=' xl:px-6 xl:py-3 bg-[#e6eeeb] text-black rounded-sm'>Services</a>
-                        <a href='#!' className=' xl:px-6 xl:py-3 xl:mx-5 bg-[#00646b] text-white rounded-sm'>Contact</a>
+                        <a href='#!' className=' px-6 py-3 bg-[#e6eeeb] text-black rounded-sm'>Services <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
+                        <a href='#!' className=' px-6 py-3 mx-5 bg-[#00646b] text-white rounded-sm'>Contact <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
                     </div>
 
                 </div>
