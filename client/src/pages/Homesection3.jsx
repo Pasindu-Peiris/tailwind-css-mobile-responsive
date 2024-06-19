@@ -13,7 +13,7 @@ const Homesection3 = () => {
 
 
     return (
-        <div style={style} className=' w-[100%] xl:h-[90vh] md:h-auto md:my-2 md:flex-col-reverse flex xl:flex-row justify-around items-center '>
+        <div style={style} className=' w-[100%] xl:h-[90vh]  md:pb-8 md:h-auto md:my-2 md:flex-col-reverse flex xl:flex-row justify-around items-center '>
 
             <div className="text-content xl:w-[520px] md:w-[80%] md:mt-20">
 
