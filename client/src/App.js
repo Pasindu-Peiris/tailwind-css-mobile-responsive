@@ -1,9 +1,9 @@
-import Home from './pages/Home.jsx'
+import Homesection1 from './pages/Homesection1.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Home/>
+      <Homesection1/>
     
     </div>
   );
