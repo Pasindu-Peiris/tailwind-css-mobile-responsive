@@ -15,7 +15,7 @@ const Homesection1 = () => {
     }
 
     return (
-        <section className=' w-[100%] h-[85vh] md:h-auto md:py-12' style={style}>
+        <section className=' w-[100%] h-[85vh] md:h-auto md:py-12 ' style={style}>
 
             <nav className=' flex items-center justify-between px-20 w-[100%] h-[15vh] ' >
 
@@ -30,9 +30,9 @@ const Homesection1 = () => {
 
             </nav>
 
-            <div className="content w-[100%] h-[70vh] grid xl:justify-start md:justify-center items-center xl:px-12 md:px-auto">
+            <div className="content w-[100%] h-[70vh] grid xl:justify-start md:justify-center sm:justify-center items-center xl:px-12 md:px-auto sm:px-auto">
 
-                <div className="content-block xl:w-[500px] xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
+                <div className="content-block xl:w-[500px]  sm:w-min-[300px] xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
 
                     <div className="text-h1 mb-3">
                         <h1 className=' text-5xl font-bold leading-25'>Taking care of dogs as if they were our own.</h1>
