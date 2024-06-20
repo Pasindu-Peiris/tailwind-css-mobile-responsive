@@ -15,7 +15,7 @@ const Homesection1 = () => {
     }
 
     return (
-        <section className=' w-[100%] h-[85vh]' style={style}>
+        <section className=' w-[100%] h-[85vh] md:h-auto md:py-12' style={style}>
 
             <nav className=' flex items-center justify-between px-20 w-[100%] h-[15vh] ' >
 
