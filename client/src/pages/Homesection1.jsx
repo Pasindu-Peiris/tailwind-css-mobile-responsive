@@ -24,8 +24,8 @@ const Homesection1 = () => {
                 </div>
 
                 <div className="menu">
-                    <a href='#!' className='  px-6 py-3 md:hidden xl:inline xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services</a>
-                    <a href='#!' className=' px-6 py-3 bg-[#00646b] text-white rounded-sm'>Contact</a>
+                    <a href='#!' className='  px-6 py-3 md:hidden xl:inline xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
+                    <a href='#!' className=' px-6 py-3 bg-[#00646b] text-white rounded-sm'>Contact <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
                 </div>
 
             </nav>
