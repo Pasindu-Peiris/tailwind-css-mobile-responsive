@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homesection6 = () => {
   return (
-    <div className=' w-[100%] h-[40vh]  flex xl:flex-row justify-center items-center '>
+    <div className=' w-[100%] h-min-[40vh] md:mb-5 xl:flex md:grid xl:flex-row  md:flex-col md:gap-4 justify-center items-center '>
 
         <div className="box-1 p-5 border-2 border-gray-200 w-[400px] h-[auto] xl:mx-5 ">
             <p className=' font-semibold my-2 text-xl'>Address</p>
