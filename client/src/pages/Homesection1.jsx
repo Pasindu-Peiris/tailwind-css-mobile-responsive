@@ -17,7 +17,7 @@ const Homesection1 = () => {
     return (
         <section className=' w-[100%] h-[85vh] md:h-auto md:py-12 ' style={style}>
 
-            <nav className=' flex items-center justify-between px-20 w-[100%] h-[15vh] ' >
+            <nav className=' flex items-center justify-between xl:px-20 md:px-20  sm:p-16 xsm:p-6 xsm:bg-red-400 w-[100%] h-[15vh] ' >
 
                 <div className="logo">
                     <a href='!'> <img src={logo} alt="" className=' h-[72px]' /></a>
@@ -32,7 +32,7 @@ const Homesection1 = () => {
 
             <div className="content   w-[100%] h-[70vh] grid xl:justify-start md:justify-center sm:justify-center items-center xl:px-12 md:px-auto sm:px-auto">
 
-                <div className="content-block xl:w-[500px]  sm:w-[100%] xsm:w-[100%] xsm:p-3 sm:p-5  xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
+                <div className="content-block xl:w-[500px]  sm:w-[100%] xsm:w-[100%] xsm:p-4 sm:p-5  xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
 
                     <div className="text-h1 mb-3">
                         <h1 className=' text-5xl font-bold leading-25'>Taking care of dogs as if they were our own.</h1>
