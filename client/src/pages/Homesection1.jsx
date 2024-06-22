@@ -17,7 +17,7 @@ const Homesection1 = () => {
     return (
         <section className=' w-[100%] h-[85vh] md:h-auto md:py-12 ' style={style}>
 
-            <nav className=' flex items-center justify-between xl:px-20 md:px-20  sm:p-16 xsm:p-6 xsm:bg-red-400 w-[100%] h-[15vh] ' >
+            <nav className=' flex items-center justify-between xl:px-20 md:px-20  sm:p-16 xsm:p-6 w-[100%] h-[15vh] ' >
 
                 <div className="logo">
                     <a href='!'> <img src={logo} alt="" className=' h-[72px]' /></a>
