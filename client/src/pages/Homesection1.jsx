@@ -24,15 +24,15 @@ const Homesection1 = () => {
                 </div>
 
                 <div className="menu">
-                    <a href='#!' className='  px-6 py-3 sm:hidden md:hidden xl:inline xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
+                    <a href='#!' className='  px-6 py-3 sm:hidden md:hidden xsm:hidden xl:inline xl:mx-6 bg-[#FFFFFF] text-black rounded-sm'>Services <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
                     <a href='#!' className=' px-6 py-3 bg-[#00646b] text-white rounded-sm'>Contact <i class="fa-solid fa-chevron-right mx-2 font-bold"></i></a>
                 </div>
 
             </nav>
 
-            <div className="content  xsm:bg-green-500 w-[100%] h-[70vh] grid xl:justify-start md:justify-center sm:justify-center items-center xl:px-12 md:px-auto sm:px-auto">
+            <div className="content   w-[100%] h-[70vh] grid xl:justify-start md:justify-center sm:justify-center items-center xl:px-12 md:px-auto sm:px-auto">
 
-                <div className="content-block xl:w-[500px]  sm:w-[100%] sm:p-5  xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
+                <div className="content-block xl:w-[500px]  sm:w-[100%] xsm:w-[100%] xsm:p-3 sm:p-5  xl:h-[auto] xl:p-8 md:w-[700px] md:h-[auto] grid flex-col xl:justify-center md:justify-start">
 
                     <div className="text-h1 mb-3">
                         <h1 className=' text-5xl font-bold leading-25'>Taking care of dogs as if they were our own.</h1>
