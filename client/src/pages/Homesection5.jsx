@@ -13,7 +13,7 @@ const Homesection5 = () => {
 
 
     return (
-        <div style={style} className=' w-[100%] xl:h-[90vh]  md:pb-8 md:h-auto md:my-2 md:flex-col-reverse flex xl:flex-row justify-around items-center '>
+        <div style={style} className=' w-[100%] xl:h-[90vh] sm:h-[90vh] xsm:h-[90vh] sm sm:flex-col-reverse xsm:flex-col-reverse  md:pb-8 md:h-auto md:my-2 md:flex-col-reverse flex xl:flex-row justify-around items-center '>
 
 
             <div className="image-content md:mt-20 xl:mt-4">
