@@ -2,7 +2,7 @@ import React from 'react'
 
 const Homesection4 = () => {
     return (
-        <div className=' w-[100%] h-[80vh] sm:pb-12 md:min-h-[100vh] sm:w-[auto] sm:h-[auto]  xsm:w-[auto] md:py-12 sm:mt-12 xsm:mt-12 xl:mt-5 grid flex-col justify-center items-center'>
+        <div className=' w-[100%] h-[80vh] sm:pb-12 md:min-h-[100vh] sm:w-[auto] sm:h-[auto] xsm:h-[auto] xsm:w-[auto] md:py-12 sm:mt-12 xsm:mt-12 xl:mt-5 grid flex-col justify-center items-center'>
 
             <div className="text-content grid justify-center items-center text-center ">
 
